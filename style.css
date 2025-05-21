@@ -1,0 +1,42 @@
+body {
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro-section {
+  background: #007bff;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.intro-section img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-bottom: 20px;
+}
+
+.skills span {
+  font-size: 1.2rem;
+  margin: 0 10px;
+  color: #007bff;
+}
+
+.projects .card {
+  transition: transform 0.3s ease;
+}
+
+.projects .card:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background: #007bff;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  margin-top: 40px;
+}
